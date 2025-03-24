@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">FiresideChat</string>
+    <string name="app_name">Fireside Chat</string>
+    <string name="log_out">Log Out</string>
+    <string name="log_out_message">Are you sure you want to log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

@@ -7,6 +7,10 @@ android {
     namespace = "com.numad.firesidechat"
     compileSdk = 35
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.numad.firesidechat"
         minSdk = 27
