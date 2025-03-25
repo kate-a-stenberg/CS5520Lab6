@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background (transparent) -->
+  
+  <!-- Chat bubbles -->
+  <rect x="100" y="190" width="200" height="100" rx="30" ry="30" fill="#2C3E50"/>
+  <rect x="120" y="120" width="160" height="100" rx="30" ry="30" fill="#34495E"/>
+  
+  <!-- Flames rising -->
+  <path d="M200,80 C200,80 185,110 185,125 C185,140 195,150 200,155 C205,150 215,140 215,125 C215,110 200,80 200,80 Z" fill="#FF5722" stroke="#FF5722" stroke-width="0.5"/>
+  <path d="M235,110 C235,110 225,130 225,145 C225,160 232,165 235,170 C238,165 245,160 245,145 C245,130 235,110 235,110 Z" fill="#FF5722" stroke="#FF5722" stroke-width="0.5"/>
+  <path d="M165,100 C165,100 155,120 155,135 C155,150 162,155 165,160 C168,155 175,150 175,135 C175,120 165,100 165,100 Z" fill="#FF5722" stroke="#FF5722" stroke-width="0.5"/>
+  
+  <!-- Inner flames (brighter) -->
+  <path d="M200,95 C200,95 190,115 190,125 C190,135 197,142 200,145 C203,142 210,135 210,125 C210,115 200,95 200,95 Z" fill="#FFC107" stroke="#FFC107" stroke-width="0.5"/>
+  <path d="M235,120 C235,120 230,132 230,142 C230,152 233,155 235,158 C237,155 240,152 240,142 C240,132 235,120 235,120 Z" fill="#FFC107" stroke="#FFC107" stroke-width="0.5"/>
+  <path d="M165,110 C165,110 160,122 160,132 C160,142 163,145 165,148 C167,145 170,142 170,132 C170,122 165,110 165,110 Z" fill="#FFC107" stroke="#FFC107" stroke-width="0.5"/>
+  
+  <!-- Brightest flame centers -->
+  <path d="M200,110 C200,110 195,120 195,125 C195,130 198,133 200,135 C202,133 205,130 205,125 C205,120 200,110 200,110 Z" fill="#FFEB3B" stroke="#FFEB3B" stroke-width="0.5"/>
+  
+  <!-- Fireside Chat text -->
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" font-weight="bold">Fireside Chat</text>
+</svg>

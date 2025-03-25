@@ -1,4 +1,4 @@
-package com.example.firesidechatkate;
+package com.numad.firesidechat;
 
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
@@ -94,15 +97,15 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
         holder.icon.setImageResource(R.drawable.usericon);
 
-        holder.name.setText(dbRef.child("messageHistory").child("user0").child("user1")); // this should go through the users path. conditional?
-        if ( dbRef.child("messageHistory").child("user0").child("user1").child("notificationTracker").child("isRead") == false) {
-            holder.status.setText(dbRef.child("messageHistory").child("user0").child("user1").child("notificationTracker").child("count"));
-            holder.status.append(" new message(s)");
-            holder.status.setTypeface(holder.status.getTypeface(), Typeface.BOLD);
-        }
-        if ( dbRef.child("messageHistory").child("user0").child("user1").child("notificationTracker").child("isRead") == true) {
-            holder.status.setText("Read");
-        }
+//        holder.name.setText(dbRef.child("messageHistory").child("user0").child("user1")); // this should go through the users path. conditional?
+//        if ( dbRef.child("messageHistory").child("user0").child("user1").child("notificationTracker").child("isRead") == false) {
+//            holder.status.setText(dbRef.child("messageHistory").child("user0").child("user1").child("notificationTracker").child("count"));
+//            holder.status.append(" new message(s)");
+//            holder.status.setTypeface(holder.status.getTypeface(), Typeface.BOLD);
+//        }
+//        if ( dbRef.child("messageHistory").child("user0").child("user1").child("notificationTracker").child("isRead") == true) {
+//            holder.status.setText("Read");
+//        }
 
         // if there are no new messages:
             // holder.status.setText("Read");

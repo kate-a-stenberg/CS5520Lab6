@@ -1,4 +1,4 @@
-package com.example.firesidechatkate;
+package com.numad.firesidechat;
 
 public class Contact {
 

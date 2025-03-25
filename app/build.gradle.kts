@@ -1,18 +1,18 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.services)
 }
 
 android {
+    namespace = "com.numad.firesidechat"
+    compileSdk = 35
 
     buildFeatures {
         viewBinding=true
     }
 
-    namespace = "com.example.firesidechatkate"
-    compileSdk = 35
-
     defaultConfig {
-        applicationId = "com.example.firesidechatkate"
+        applicationId = "com.numad.firesidechat"
         minSdk = 27
         targetSdk = 35
         versionCode = 1
@@ -45,4 +45,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.realtime.database)
 }

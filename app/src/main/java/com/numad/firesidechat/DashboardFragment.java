@@ -1,4 +1,4 @@
-package com.example.firesidechatkate;
+package com.numad.firesidechat;
 
 import android.os.Bundle;
 
@@ -11,7 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.firesidechatkate.databinding.FragmentDashboardBinding;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.numad.firesidechat.databinding.FragmentDashboardBinding;
 
 import java.util.ArrayList;
 

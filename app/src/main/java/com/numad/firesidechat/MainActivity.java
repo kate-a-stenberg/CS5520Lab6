@@ -1,4 +1,4 @@
-package com.example.firesidechatkate;
+package com.numad.firesidechat;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.firesidechatkate.databinding.ActivityMainBinding;
+import com.numad.firesidechat.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 

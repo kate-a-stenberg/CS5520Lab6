@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239427017132",
+    "project_id": "firesidechat-ee98c",
+    "storage_bucket": "firesidechat-ee98c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239427017132:android:889393080f0d5f866e0209",
+        "android_client_info": {
+          "package_name": "com.numad.firesidechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm9GZWIRDQv7cb_oSUGGrBl9cyGM4Zg3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
