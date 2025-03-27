@@ -4,4 +4,22 @@
     <string name="log_out_message">Are you sure you want to log out?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="username">Username</string>
+    <string name="email">E-mail</string>
+    <string name="login">Login</string>
+    <string name="login_success">Logged in successfully!</string>
+    <string name="signup_success">Signed up successfully!</string>
+    <string name="login_failure">Trouble logging in. Please try again.</string>
+    <string name="login_email_or_name_error">Please fill in your username and email to login or sign up.</string>
+    <string name="something_went_wrong">Something went wrong. Please try again.</string>
+    <string name="read">Read!</string>
+    <string name="x_new_messages">%d new message(s)</string>
+    <string name="start_a_conversation">Start a conversation</string>
+    <string name="search_name">Search for Contact</string>
+    <string name="chat_btn">Chat</string>
+    <string name="no_user_found">No user found with that name.</string>
+    <string name="send_btn">Send</string>
+    <string name="type_message">Type a message…</string>
+    <string name="hold_to_delete">Press and hold a message to delete it.</string>
+    <string name="message_deleted">Message Deleted!</string>
 </resources>
