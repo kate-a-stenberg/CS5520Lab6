@@ -36,7 +36,7 @@ However, as the project evolved, our design went a bit off track and we made sev
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/fireside-chat.git
+   git clone https://github.com/kate-a-stenberg/CS5520Lab6.git
 
 
 
