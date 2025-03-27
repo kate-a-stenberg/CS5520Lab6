@@ -79,7 +79,8 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
         return messages != null ? messages.size() : 0;
     }
 
-    public static class MessageViewHolder extends RecyclerView.ViewHolder implements View.OnLongClickListener, View.OnClickListener {
+    public static class MessageViewHolder extends RecyclerView.ViewHolder
+            implements View.OnLongClickListener, View.OnClickListener {
         private final OnMessageLongClickListener onMessageLongClickListener;
         private final List<Message> messagesCopy;
 
@@ -90,6 +91,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
             this.onMessageLongClickListener = onMessageLongClickListener;
             messagesCopy = m;
             binding.getRoot().setOnLongClickListener(this);
+            binding.getRoot().setOnClickListener(this);
         }
 
         @Override

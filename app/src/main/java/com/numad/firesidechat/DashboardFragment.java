@@ -54,7 +54,6 @@ public class DashboardFragment extends Fragment implements RecyclerAdapter.OnNot
         initListeners();
 
         return binding.getRoot();
-
     }
 
     /**
